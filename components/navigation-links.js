@@ -6,7 +6,12 @@ const NavigationLinks = (props) => {
   return (
     <>
       <nav className={`navigation-links-nav ${props.rootClassName} `}>
-        <a href="#about" className="navigation-links-link">
+        <a
+          href="https://enerlon.com/#about"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="navigation-links-link"
+        >
           {props.text}
         </a>
       </nav>
