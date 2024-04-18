@@ -322,7 +322,6 @@ const Home = (props) => {
             justify-content: center;
             background-image: url('/hero2a-1500w.jpg');
             background-position: center;
-            background-attachment: fixed;
           }
           .home-text {
             top: 100px;
