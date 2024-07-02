@@ -39,11 +39,6 @@ const NavigationLinks = (props) => {
               display: none;
             }
           }
-          @media (max-width: 479px) {
-            .navigation-links-root-class-name17 {
-              display: none;
-            }
-          }
         `}
       </style>
     </>
