@@ -30,8 +30,8 @@ const Home = (props) => {
               />
             </a>
           </Link>
-          <div className="home-nav">
-            <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
+          <div className="home-container01">
+            <div className="home-nav"></div>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -40,7 +40,7 @@ const Home = (props) => {
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-nav1">
-              <div className="home-container01">
+              <div className="home-container02">
                 <Link href="/">
                   <a className="home-link1">
                     <img
@@ -60,6 +60,14 @@ const Home = (props) => {
                 </div>
               </div>
               <NavigationLinks rootClassName="rootClassName18"></NavigationLinks>
+              <a
+                href="https://iot.enerlon.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link2 button"
+              >
+                New IoT Services
+              </a>
             </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" className="home-icon04">
@@ -73,9 +81,20 @@ const Home = (props) => {
               </svg>
             </div>
           </div>
-        </header>
-        <div className="home-container02">
           <div className="home-container03">
+            <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
+            <a
+              href="https://iot.enerlon.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link3 button"
+            >
+              New IoT Services
+            </a>
+          </div>
+        </header>
+        <div className="home-container04">
+          <div className="home-container05">
             <h1 className="home-text">
               <span className="home-text01">
                 Commercial &amp; Institutional Energy Services
@@ -89,8 +108,8 @@ const Home = (props) => {
           src="/enerlon_logo_new-1500h-1500h.png"
           className="home-image2"
         />
-        <div className="home-container04">
-          <div className="home-container05">
+        <div className="home-container06">
+          <div className="home-container07">
             <svg viewBox="0 0 1024 1024" className="home-icon10">
               <path d="M298 86h428l-172 340h172l-300 512v-384h-128v-468z"></path>
             </svg>
@@ -105,7 +124,7 @@ const Home = (props) => {
               all while reducing your energy costs
             </span>
           </div>
-          <div className="home-container06">
+          <div className="home-container08">
             <svg viewBox="0 0 1024 1024" className="home-icon12">
               <path d="M682 554q56 0 122 16t122 52 56 82v106h-256v-106q0-88-84-148 14-2 40-2zM342 554q56 0 122 16t121 52 55 82v106h-598v-106q0-46 56-82t122-52 122-16zM342 470q-52 0-90-38t-38-90 38-90 90-38 89 38 37 90-37 90-89 38zM682 470q-52 0-90-38t-38-90 38-90 90-38 90 38 38 90-38 90-90 38z"></path>
             </svg>
@@ -119,7 +138,7 @@ const Home = (props) => {
               proprietary systems and service lock in
             </span>
           </div>
-          <div className="home-container07">
+          <div className="home-container09">
             <svg viewBox="0 0 1024 1024" className="home-icon14">
               <path d="M933.79 610.25c-53.726-93.054-21.416-212.304 72.152-266.488l-100.626-174.292c-28.75 16.854-62.176 26.518-97.846 26.518-107.536 0-194.708-87.746-194.708-195.99h-201.258c0.266 33.41-8.074 67.282-25.958 98.252-53.724 93.056-173.156 124.702-266.862 70.758l-100.624 174.292c28.97 16.472 54.050 40.588 71.886 71.478 53.638 92.908 21.512 211.92-71.708 266.224l100.626 174.292c28.65-16.696 61.916-26.254 97.4-26.254 107.196 0 194.144 87.192 194.7 194.958h201.254c-0.086-33.074 8.272-66.57 25.966-97.218 53.636-92.906 172.776-124.594 266.414-71.012l100.626-174.29c-28.78-16.466-53.692-40.498-71.434-71.228zM512 719.332c-114.508 0-207.336-92.824-207.336-207.334 0-114.508 92.826-207.334 207.336-207.334 114.508 0 207.332 92.826 207.332 207.334-0.002 114.51-92.824 207.334-207.332 207.334z"></path>
             </svg>
@@ -135,8 +154,8 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-container08"></div>
-        <div className="home-container09">
+        <div className="home-container10"></div>
+        <div className="home-container11">
           <h1 className="home-text15">
             <span>For over 20 years...</span>
             <br></br>
@@ -169,12 +188,12 @@ const Home = (props) => {
             <br></br>
           </span>
         </div>
-        <div className="home-container10">
+        <div className="home-container12">
           <h1 className="home-text28">Our Solutions Keep the Planet Green</h1>
         </div>
-        <div id="about" className="home-container11">
-          <div className="home-container12">
-            <div className="home-container13">
+        <div id="about" className="home-container13">
+          <div className="home-container14">
+            <div className="home-container15">
               <h1 className="home-text29">About Us</h1>
               <span className="home-text30">
                 EnerLon is a California Corporation licensed in air
@@ -182,7 +201,7 @@ const Home = (props) => {
                 classifications. We make buildings smart
               </span>
             </div>
-            <div className="home-container14">
+            <div className="home-container16">
               <h1 className="home-text31">Contact</h1>
               <span className="home-text32">
                 <span>info@enerlon.com</span>
@@ -198,8 +217,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container15">
-          <div className="home-container16">
+        <div className="home-container17">
+          <div className="home-container18">
             <span className="home-text42"> Copyright (c) Enerlon Corp.</span>
           </div>
         </div>
@@ -234,8 +253,17 @@ const Home = (props) => {
             height: 3rem;
             text-decoration: none;
           }
+          .home-container01 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: space-between;
+            flex-direction: column;
+          }
           .home-nav {
             flex: 0 0 auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -266,7 +294,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-container01 {
+          .home-container02 {
             width: 100%;
             display: flex;
             align-items: center;
@@ -289,6 +317,12 @@ const Home = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
+          .home-link2 {
+            margin-left: var(--dl-space-space-oneandhalfunits);
+            padding-left: 1rem;
+            text-decoration: none;
+            background-color: rgb(198, 232, 202);
+          }
           .home-icon04 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
@@ -303,7 +337,22 @@ const Home = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .home-container02 {
+          .home-container03 {
+            flex: 1;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-end;
+          }
+          .home-link3 {
+            margin-left: var(--dl-space-space-oneandhalfunits);
+            padding-left: 1rem;
+            text-decoration: none;
+            background-color: rgb(198, 232, 202);
+          }
+          .home-container04 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -311,7 +360,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-container03 {
+          .home-container05 {
             width: 100%;
             height: 380px;
             display: flex;
@@ -343,7 +392,7 @@ const Home = (props) => {
             display: none;
             object-fit: cover;
           }
-          .home-container04 {
+          .home-container06 {
             flex: 0 0 auto;
             width: 70%;
             display: flex;
@@ -353,7 +402,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-twounits);
           }
-          .home-container05 {
+          .home-container07 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -382,7 +431,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container06 {
+          .home-container08 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -411,7 +460,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container07 {
+          .home-container09 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -439,7 +488,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container08 {
+          .home-container10 {
             flex: 0 0 auto;
             width: 100%;
             height: 380px;
@@ -451,7 +500,7 @@ const Home = (props) => {
             background-position: center;
             background-attachment: fixed;
           }
-          .home-container09 {
+          .home-container11 {
             flex: 0 0 auto;
             width: 70%;
             height: auto;
@@ -476,7 +525,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container10 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             height: 380px;
@@ -496,7 +545,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-container11 {
+          .home-container13 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -506,14 +555,14 @@ const Home = (props) => {
             justify-content: center;
             background-color: #212121;
           }
-          .home-container12 {
+          .home-container14 {
             flex: 0 0 auto;
             width: 75%;
             height: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .home-container13 {
+          .home-container15 {
             width: 60%;
             height: 100%;
             display: flex;
@@ -543,7 +592,7 @@ const Home = (props) => {
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container14 {
+          .home-container16 {
             width: 40%;
             height: 100%;
             display: flex;
@@ -568,7 +617,7 @@ const Home = (props) => {
             font-weight: 400;
             line-height: 1.5;
           }
-          .home-container15 {
+          .home-container17 {
             flex: 0 0 auto;
             width: 100%;
             height: 30px;
@@ -578,7 +627,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-black);
           }
-          .home-container16 {
+          .home-container18 {
             flex: 0 0 auto;
             width: 70%;
             height: auto;
@@ -593,7 +642,7 @@ const Home = (props) => {
             padding-left: 0px;
           }
           @media (max-width: 991px) {
-            .home-container04 {
+            .home-container06 {
               width: 90%;
             }
           }
@@ -610,7 +659,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-container04 {
+            .home-container06 {
               flex-direction: column;
             }
           }
@@ -624,6 +673,12 @@ const Home = (props) => {
             .home-mobile-menu {
               padding: 16px;
             }
+            .home-link2 {
+              margin-left: 0px;
+            }
+            .home-link3 {
+              display: none;
+            }
             .home-text {
               font-size: 2em;
             }
@@ -636,12 +691,12 @@ const Home = (props) => {
               display: flex;
               padding-top: var(--dl-space-space-twounits);
             }
-            .home-container04 {
+            .home-container06 {
               width: 90%;
               padding: var(--dl-space-space-unit);
               flex-direction: column;
             }
-            .home-container09 {
+            .home-container11 {
               width: 90%;
             }
             .home-text28 {
@@ -652,14 +707,14 @@ const Home = (props) => {
               font-family: PT Sans;
               font-weight: 400;
             }
-            .home-container11 {
+            .home-container13 {
               flex-direction: row;
             }
-            .home-container12 {
+            .home-container14 {
               width: 90%;
               flex-direction: column;
             }
-            .home-container13 {
+            .home-container15 {
               width: 100%;
               padding: var(--dl-space-space-unit);
               margin-right: 0px;
@@ -667,11 +722,11 @@ const Home = (props) => {
             .home-text30 {
               width: 100%;
             }
-            .home-container14 {
+            .home-container16 {
               width: 100%;
               padding: var(--dl-space-space-unit);
             }
-            .home-container16 {
+            .home-container18 {
               padding-left: var(--dl-space-space-halfunit);
             }
           }

@@ -36,6 +36,11 @@ const NavigationLinks = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
           }
+          @media (max-width: 479px) {
+            .navigation-links-root-class-name17 {
+              display: none;
+            }
+          }
         `}
       </style>
     </>
