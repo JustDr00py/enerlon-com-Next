@@ -60,14 +60,6 @@ const Home = (props) => {
                 </div>
               </div>
               <NavigationLinks rootClassName="rootClassName18"></NavigationLinks>
-              <a
-                href="https://iot.enerlon.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link2 button"
-              >
-                New IoT Services
-              </a>
             </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" className="home-icon04">
@@ -87,7 +79,7 @@ const Home = (props) => {
               href="https://iot.enerlon.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link3 button"
+              className="home-link2 button"
             >
               New IoT Services
             </a>
@@ -317,12 +309,6 @@ const Home = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .home-link2 {
-            margin-left: var(--dl-space-space-oneandhalfunits);
-            padding-left: 1rem;
-            text-decoration: none;
-            background-color: rgb(198, 232, 202);
-          }
           .home-icon04 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
@@ -346,7 +332,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .home-link3 {
+          .home-link2 {
             margin-left: var(--dl-space-space-oneandhalfunits);
             padding-left: 1rem;
             text-decoration: none;
@@ -672,12 +658,6 @@ const Home = (props) => {
             }
             .home-mobile-menu {
               padding: 16px;
-            }
-            .home-link2 {
-              margin-left: 0px;
-            }
-            .home-link3 {
-              display: none;
             }
             .home-text {
               font-size: 2em;
