@@ -645,6 +645,9 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .home-icon {
+              display: none;
+            }
             .home-container06 {
               flex-direction: column;
             }
@@ -652,8 +655,15 @@ const Home = (props) => {
           @media (max-width: 479px) {
             .home-header {
               padding: var(--dl-space-space-unit);
+              padding-left: 16px;
             }
             .home-image {
+              display: none;
+            }
+            .home-nav {
+              display: flex;
+            }
+            .home-burger-menu {
               display: none;
             }
             .home-mobile-menu {
