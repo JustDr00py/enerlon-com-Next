@@ -35,7 +35,7 @@ const NavigationLinks = (props) => {
             .navigation-links-link {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links-root-class-name17 {
+            .navigation-linksroot-class-name17 {
               display: none;
             }
           }
@@ -47,20 +47,12 @@ const NavigationLinks = (props) => {
 
 NavigationLinks.defaultProps = {
   rootClassName: '',
-  text2: 'Pricing',
-  text4: 'Blog',
-  text1: 'Features',
   text: 'About',
-  text3: 'Team',
 }
 
 NavigationLinks.propTypes = {
   rootClassName: PropTypes.string,
-  text2: PropTypes.string,
-  text4: PropTypes.string,
-  text1: PropTypes.string,
   text: PropTypes.string,
-  text3: PropTypes.string,
 }
 
 export default NavigationLinks

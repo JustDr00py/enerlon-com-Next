@@ -7,7 +7,7 @@ import NavigationLinks from '../components/navigation-links'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="home-container10">
         <Head>
           <title>Enerlon Corp.</title>
           <meta
@@ -22,31 +22,31 @@ const Home = (props) => {
         </Head>
         <header data-role="Header" className="home-header">
           <Link href="/">
-            <a className="home-link">
+            <a className="home-link1">
               <img
                 alt="logo"
                 src="/enerlon_logo_new-1500h-1500h.png"
-                className="home-image"
+                className="home-image1"
               />
             </a>
           </Link>
-          <div className="home-container01">
-            <div className="home-nav"></div>
+          <div className="home-container11">
+            <div className="home-nav1"></div>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="home-icon">
+            <svg viewBox="0 0 1024 1024" className="home-icon10">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu">
-            <div className="home-nav1">
-              <div className="home-container02">
+            <div className="home-nav2">
+              <div className="home-container12">
                 <Link href="/">
-                  <a className="home-link1">
+                  <a className="home-link2">
                     <img
                       alt="image"
                       src="/enerlon_logo_new-1500h-1500h.png"
-                      className="home-image1"
+                      className="home-image2"
                     />
                   </a>
                 </Link>
@@ -54,7 +54,7 @@ const Home = (props) => {
                   data-role="CloseMobileMenu"
                   className="home-close-mobile-menu"
                 >
-                  <svg viewBox="0 0 1024 1024" className="home-icon02">
+                  <svg viewBox="0 0 1024 1024" className="home-icon12">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
@@ -62,33 +62,33 @@ const Home = (props) => {
               <NavigationLinks rootClassName="rootClassName18"></NavigationLinks>
             </div>
             <div>
-              <svg viewBox="0 0 950.8571428571428 1024" className="home-icon04">
+              <svg viewBox="0 0 950.8571428571428 1024" className="home-icon14">
                 <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
               </svg>
-              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon06">
+              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon16">
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
-              <svg viewBox="0 0 602.2582857142856 1024" className="home-icon08">
+              <svg viewBox="0 0 602.2582857142856 1024" className="home-icon18">
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
             </div>
           </div>
-          <div className="home-container03">
+          <div className="home-container13">
             <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
             <a
               href="https://iot.enerlon.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link2 button"
+              className="home-link3 button"
             >
               New IoT Services
             </a>
           </div>
         </header>
-        <div className="home-container04">
-          <div className="home-container05">
-            <h1 className="home-text">
-              <span className="home-text01">
+        <div className="home-container14">
+          <div className="home-container15">
+            <h1 className="home-text10">
+              <span className="home-text11">
                 Commercial &amp; Institutional Energy Services
               </span>
               <br></br>
@@ -98,47 +98,47 @@ const Home = (props) => {
         <img
           alt="image"
           src="/enerlon_logo_new-1500h-1500h.png"
-          className="home-image2"
+          className="home-image3"
         />
-        <div className="home-container06">
-          <div className="home-container07">
-            <svg viewBox="0 0 1024 1024" className="home-icon10">
+        <div className="home-container16">
+          <div className="home-container17">
+            <svg viewBox="0 0 1024 1024" className="home-icon20">
               <path d="M298 86h428l-172 340h172l-300 512v-384h-128v-468z"></path>
             </svg>
-            <h1 className="home-text03">
+            <h1 className="home-text13">
               <span>Energy Services</span>
               <br></br>
             </h1>
-            <span className="home-text06">
+            <span className="home-text16">
               Get control of your energy usage. Our free system review will tell
               you exactly where you are spending your energy dollars and
               recommend enhancements to provide increased comfort and security
               all while reducing your energy costs
             </span>
           </div>
-          <div className="home-container08">
-            <svg viewBox="0 0 1024 1024" className="home-icon12">
+          <div className="home-container18">
+            <svg viewBox="0 0 1024 1024" className="home-icon22">
               <path d="M682 554q56 0 122 16t122 52 56 82v106h-256v-106q0-88-84-148 14-2 40-2zM342 554q56 0 122 16t121 52 55 82v106h-598v-106q0-46 56-82t122-52 122-16zM342 470q-52 0-90-38t-38-90 38-90 90-38 89 38 37 90-37 90-89 38zM682 470q-52 0-90-38t-38-90 38-90 90-38 90 38 38 90-38 90-90 38z"></path>
             </svg>
-            <h1 className="home-text07">
+            <h1 className="home-text17">
               <span>Interoperable Systems</span>
               <br></br>
             </h1>
-            <span className="home-text10">
+            <span className="home-text20">
               We specialize in building interoperable systems that can be
               serviced and upgraded by any solution provider. Say good bye to
               proprietary systems and service lock in
             </span>
           </div>
-          <div className="home-container09">
-            <svg viewBox="0 0 1024 1024" className="home-icon14">
+          <div className="home-container19">
+            <svg viewBox="0 0 1024 1024" className="home-icon24">
               <path d="M933.79 610.25c-53.726-93.054-21.416-212.304 72.152-266.488l-100.626-174.292c-28.75 16.854-62.176 26.518-97.846 26.518-107.536 0-194.708-87.746-194.708-195.99h-201.258c0.266 33.41-8.074 67.282-25.958 98.252-53.724 93.056-173.156 124.702-266.862 70.758l-100.624 174.292c28.97 16.472 54.050 40.588 71.886 71.478 53.638 92.908 21.512 211.92-71.708 266.224l100.626 174.292c28.65-16.696 61.916-26.254 97.4-26.254 107.196 0 194.144 87.192 194.7 194.958h201.254c-0.086-33.074 8.272-66.57 25.966-97.218 53.636-92.906 172.776-124.594 266.414-71.012l100.626-174.29c-28.78-16.466-53.692-40.498-71.434-71.228zM512 719.332c-114.508 0-207.336-92.824-207.336-207.334 0-114.508 92.826-207.334 207.336-207.334 114.508 0 207.332 92.826 207.332 207.334-0.002 114.51-92.824 207.334-207.332 207.334z"></path>
             </svg>
-            <h1 className="home-text11">
+            <h1 className="home-text21">
               <span>Repair</span>
               <br></br>
             </h1>
-            <span className="home-text14">
+            <span className="home-text24">
               We provide expert repair for systems that we install or for
               systems you may have had installed by other contractors. Whether
               it is broken or you just need monthly maintenance, we have a
@@ -146,13 +146,13 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-container10"></div>
-        <div className="home-container11">
-          <h1 className="home-text15">
+        <div className="home-container20"></div>
+        <div className="home-container21">
+          <h1 className="home-text25">
             <span>For over 20 years...</span>
             <br></br>
           </h1>
-          <span className="home-text18">
+          <span className="home-text28">
             <span>
               EnerLon has provided installation, repair, maintenance, and
               retrofit of air conditioning and refrigeration systems, variable
@@ -180,22 +180,22 @@ const Home = (props) => {
             <br></br>
           </span>
         </div>
-        <div className="home-container12">
-          <h1 className="home-text28">Our Solutions Keep the Planet Green</h1>
+        <div className="home-container22">
+          <h1 className="home-text38">Our Solutions Keep the Planet Green</h1>
         </div>
-        <div id="about" className="home-container13">
-          <div className="home-container14">
-            <div className="home-container15">
-              <h1 className="home-text29">About Us</h1>
-              <span className="home-text30">
+        <div id="about" className="home-container23">
+          <div className="home-container24">
+            <div className="home-container25">
+              <h1 className="home-text39">About Us</h1>
+              <span className="home-text40">
                 EnerLon is a California Corporation licensed in air
                 conditioning, refrigeration, electrical, and general building
                 classifications. We make buildings smart
               </span>
             </div>
-            <div className="home-container16">
-              <h1 className="home-text31">Contact</h1>
-              <span className="home-text32">
+            <div className="home-container26">
+              <h1 className="home-text41">Contact</h1>
+              <span className="home-text42">
                 <span>info@enerlon.com</span>
                 <br></br>
                 <span>888-Enerlon</span>
@@ -209,15 +209,15 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container17">
-          <div className="home-container18">
-            <span className="home-text42"> Copyright (c) Enerlon Corp.</span>
+        <div className="home-container27">
+          <div className="home-container28">
+            <span className="home-text52"> Copyright (c) Enerlon Corp.</span>
           </div>
         </div>
       </div>
       <style jsx>
         {`
-          .home-container {
+          .home-container10 {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -238,14 +238,14 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .home-link {
+          .home-link1 {
             display: contents;
           }
-          .home-image {
+          .home-image1 {
             height: 3rem;
             text-decoration: none;
           }
-          .home-container01 {
+          .home-container11 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -253,7 +253,7 @@ const Home = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .home-nav {
+          .home-nav1 {
             flex: 0 0 auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -263,7 +263,7 @@ const Home = (props) => {
           .home-burger-menu {
             display: none;
           }
-          .home-icon {
+          .home-icon10 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
             display: flex;
@@ -281,22 +281,22 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: #fff;
           }
-          .home-nav1 {
+          .home-nav2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-container02 {
+          .home-container12 {
             width: 100%;
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
-          .home-image1 {
+          .home-image2 {
             height: 2rem;
             text-decoration: none;
           }
@@ -305,25 +305,25 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-icon02 {
+          .home-icon12 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .home-icon04 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .home-icon06 {
+          .home-icon14 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
             margin-right: var(--dl-space-space-twounits);
           }
-          .home-icon08 {
+          .home-icon16 {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+            margin-right: var(--dl-space-space-twounits);
+          }
+          .home-icon18 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .home-container03 {
+          .home-container13 {
             flex: 1;
             width: 100%;
             height: 100px;
@@ -332,13 +332,13 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .home-link2 {
+          .home-link3 {
             margin-left: var(--dl-space-space-oneandhalfunits);
             padding-left: 1rem;
             text-decoration: none;
             background-color: rgb(198, 232, 202);
           }
-          .home-container04 {
+          .home-container14 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -346,7 +346,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-container05 {
+          .home-container15 {
             width: 100%;
             height: 380px;
             display: flex;
@@ -358,7 +358,7 @@ const Home = (props) => {
             background-image: url('/hero2a-1500w.jpg');
             background-position: center;
           }
-          .home-text {
+          .home-text10 {
             top: 100px;
             left: 0px;
             right: 0px;
@@ -370,15 +370,15 @@ const Home = (props) => {
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-text01 {
+          .home-text11 {
             color: var(--dl-color-gray-white);
           }
-          .home-image2 {
+          .home-image3 {
             width: 200px;
             display: none;
             object-fit: cover;
           }
-          .home-container06 {
+          .home-container16 {
             flex: 0 0 auto;
             width: 70%;
             display: flex;
@@ -388,7 +388,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-twounits);
           }
-          .home-container07 {
+          .home-container17 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -398,26 +398,26 @@ const Home = (props) => {
             padding-bottom: 16px;
             justify-content: flex-start;
           }
-          .home-icon10 {
+          .home-icon20 {
             fill: #465497;
             width: 53px;
             height: 59px;
             margin: var(--dl-space-space-halfunit);
           }
-          .home-text03 {
+          .home-text13 {
             margin: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5em;
             font-style: normal;
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-text06 {
+          .home-text16 {
             font-size: 1em;
             text-align: center;
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container08 {
+          .home-container18 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -426,13 +426,13 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-icon12 {
+          .home-icon22 {
             fill: #465497;
             width: 53px;
             height: 59px;
             margin: var(--dl-space-space-halfunit);
           }
-          .home-text07 {
+          .home-text17 {
             margin: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5em;
             font-style: normal;
@@ -440,13 +440,13 @@ const Home = (props) => {
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-text10 {
+          .home-text20 {
             font-size: 1em;
             text-align: center;
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container09 {
+          .home-container19 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -455,26 +455,26 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-icon14 {
+          .home-icon24 {
             fill: #465497;
             width: 53px;
             height: 59px;
             margin: var(--dl-space-space-halfunit);
           }
-          .home-text11 {
+          .home-text21 {
             margin: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5em;
             font-style: normal;
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-text14 {
+          .home-text24 {
             font-size: 1em;
             text-align: center;
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container10 {
+          .home-container20 {
             flex: 0 0 auto;
             width: 100%;
             height: 380px;
@@ -486,7 +486,7 @@ const Home = (props) => {
             background-position: center;
             background-attachment: fixed;
           }
-          .home-container11 {
+          .home-container21 {
             flex: 0 0 auto;
             width: 70%;
             height: auto;
@@ -500,18 +500,18 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             justify-content: center;
           }
-          .home-text15 {
+          .home-text25 {
             font-style: normal;
             font-family: 'PT Sans';
             font-weight: 400;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text18 {
+          .home-text28 {
             font-size: 1em;
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container12 {
+          .home-container22 {
             flex: 0 0 auto;
             width: 100%;
             height: 380px;
@@ -524,14 +524,14 @@ const Home = (props) => {
             background-position: bottom;
             background-attachment: fixed;
           }
-          .home-text28 {
+          .home-text38 {
             color: var(--dl-color-gray-white);
             font-size: 3em;
             font-style: normal;
             font-family: 'PT Sans';
             font-weight: 400;
           }
-          .home-container13 {
+          .home-container23 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -541,14 +541,14 @@ const Home = (props) => {
             justify-content: center;
             background-color: #212121;
           }
-          .home-container14 {
+          .home-container24 {
             flex: 0 0 auto;
             width: 75%;
             height: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .home-container15 {
+          .home-container25 {
             width: 60%;
             height: 100%;
             display: flex;
@@ -563,7 +563,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text29 {
+          .home-text39 {
             color: var(--dl-color-gray-white);
             font-size: 1.5em;
             font-style: normal;
@@ -572,13 +572,13 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text30 {
+          .home-text40 {
             color: var(--dl-color-gray-white);
             font-size: 1em;
             font-family: 'PT Sans';
             line-height: 2;
           }
-          .home-container16 {
+          .home-container26 {
             width: 40%;
             height: 100%;
             display: flex;
@@ -586,7 +586,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text31 {
+          .home-text41 {
             color: var(--dl-color-gray-white);
             font-size: 1.5em;
             font-style: normal;
@@ -595,7 +595,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text32 {
+          .home-text42 {
             color: var(--dl-color-gray-white);
             font-size: 1em;
             font-style: normal;
@@ -603,7 +603,7 @@ const Home = (props) => {
             font-weight: 400;
             line-height: 1.5;
           }
-          .home-container17 {
+          .home-container27 {
             flex: 0 0 auto;
             width: 100%;
             height: 30px;
@@ -613,7 +613,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-black);
           }
-          .home-container18 {
+          .home-container28 {
             flex: 0 0 auto;
             width: 70%;
             height: auto;
@@ -622,13 +622,13 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-text42 {
+          .home-text52 {
             color: var(--dl-color-gray-white);
             font-family: 'PT Sans';
             padding-left: 0px;
           }
           @media (max-width: 991px) {
-            .home-container06 {
+            .home-container16 {
               width: 90%;
             }
           }
@@ -637,7 +637,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-nav {
+            .home-nav1 {
               display: none;
             }
             .home-burger-menu {
@@ -645,10 +645,10 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-icon {
+            .home-icon10 {
               display: none;
             }
-            .home-container06 {
+            .home-container16 {
               flex-direction: column;
             }
           }
@@ -657,10 +657,10 @@ const Home = (props) => {
               padding: var(--dl-space-space-unit);
               padding-left: 16px;
             }
-            .home-image {
+            .home-image1 {
               display: none;
             }
-            .home-nav {
+            .home-nav1 {
               display: flex;
             }
             .home-burger-menu {
@@ -669,27 +669,27 @@ const Home = (props) => {
             .home-mobile-menu {
               padding: 16px;
             }
-            .home-text {
+            .home-text10 {
               font-size: 2em;
             }
-            .home-text01 {
+            .home-text11 {
               color: var(--dl-color-gray-white);
               font-size: 1.5em;
             }
-            .home-image2 {
+            .home-image3 {
               width: 250px;
               display: flex;
               padding-top: var(--dl-space-space-twounits);
             }
-            .home-container06 {
+            .home-container16 {
               width: 90%;
               padding: var(--dl-space-space-unit);
               flex-direction: column;
             }
-            .home-container11 {
+            .home-container21 {
               width: 90%;
             }
-            .home-text28 {
+            .home-text38 {
               color: var(--dl-color-gray-white);
               font-size: 2em;
               font-style: normal;
@@ -697,26 +697,26 @@ const Home = (props) => {
               font-family: PT Sans;
               font-weight: 400;
             }
-            .home-container13 {
+            .home-container23 {
               flex-direction: row;
             }
-            .home-container14 {
+            .home-container24 {
               width: 90%;
               flex-direction: column;
             }
-            .home-container15 {
+            .home-container25 {
               width: 100%;
               padding: var(--dl-space-space-unit);
               margin-right: 0px;
             }
-            .home-text30 {
+            .home-text40 {
               width: 100%;
             }
-            .home-container16 {
+            .home-container26 {
               width: 100%;
               padding: var(--dl-space-space-unit);
             }
-            .home-container18 {
+            .home-container28 {
               padding-left: var(--dl-space-space-halfunit);
             }
           }
