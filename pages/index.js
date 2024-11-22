@@ -149,12 +149,12 @@ const Home = (props) => {
         <div className="home-container20"></div>
         <div className="home-container21">
           <h1 className="home-text25">
-            <span>For over 20 years...</span>
+            <span>For over 40 years...</span>
             <br></br>
           </h1>
           <span className="home-text28">
             <span>
-              EnerLon has provided installation, repair, maintenance, and
+              Enerlon has provided installation, repair, maintenance, and
               retrofit of air conditioning and refrigeration systems, variable
               speed drives, lighting controls, and the tools, training, and
               expertise to implement interoperable networks of intelligent
@@ -188,7 +188,7 @@ const Home = (props) => {
             <div className="home-container25">
               <h1 className="home-text39">About Us</h1>
               <span className="home-text40">
-                EnerLon is a California Corporation licensed in air
+                Enerlon is a California Corporation licensed in air
                 conditioning, refrigeration, electrical, and general building
                 classifications. We make buildings smart
               </span>
@@ -574,9 +574,6 @@ const Home = (props) => {
           }
           .home-text40 {
             color: var(--dl-color-gray-white);
-            font-size: 1em;
-            font-family: 'PT Sans';
-            line-height: 2;
           }
           .home-container26 {
             width: 40%;
